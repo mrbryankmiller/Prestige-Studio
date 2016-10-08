@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EA097661DA5C3630012B8DE /* SendMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA097651DA5C3630012B8DE /* SendMoneyViewController.swift */; };
+		1E8AE1381DA881C500F47181 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8AE1371DA881C500F47181 /* MessageUI.framework */; };
+		1E8AE15E1DA961E300F47181 /* AmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AE15D1DA961E300F47181 /* AmountViewController.swift */; };
 		1EA097681DA5C37A0012B8DE /* TodaysRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA097671DA5C37A0012B8DE /* TodaysRatesViewController.swift */; };
 		1EA0976A1DA5D7F90012B8DE /* ContacFormTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA097691DA5D7F90012B8DE /* ContacFormTableTableViewController.swift */; };
 		1EBA21491DA5BE2D00F12C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA21481DA5BE2D00F12C39 /* AppDelegate.swift */; };
@@ -18,7 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1EA097651DA5C3630012B8DE /* SendMoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMoneyViewController.swift; sourceTree = "<group>"; };
+		1E8AE1371DA881C500F47181 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1E8AE15D1DA961E300F47181 /* AmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountViewController.swift; sourceTree = "<group>"; };
 		1EA097671DA5C37A0012B8DE /* TodaysRatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaysRatesViewController.swift; sourceTree = "<group>"; };
 		1EA097691DA5D7F90012B8DE /* ContacFormTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContacFormTableTableViewController.swift; sourceTree = "<group>"; };
 		1EBA21451DA5BE2D00F12C39 /* Prestige Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prestige Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8AE1381DA881C500F47181 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E8AE1361DA881C400F47181 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E8AE1371DA881C500F47181 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1EBA213C1DA5BE2D00F12C39 = {
 			isa = PBXGroup;
 			children = (
 				1EBA21471DA5BE2D00F12C39 /* Prestige Studio */,
 				1EBA21461DA5BE2D00F12C39 /* Products */,
+				1E8AE1361DA881C400F47181 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +75,8 @@
 				1EBA21481DA5BE2D00F12C39 /* AppDelegate.swift */,
 				1EBA214A1DA5BE2D00F12C39 /* ViewController.swift */,
 				1EBA214C1DA5BE2D00F12C39 /* Main.storyboard */,
+				1E8AE15D1DA961E300F47181 /* AmountViewController.swift */,
 				1EA097691DA5D7F90012B8DE /* ContacFormTableTableViewController.swift */,
-				1EA097651DA5C3630012B8DE /* SendMoneyViewController.swift */,
 				1EA097671DA5C37A0012B8DE /* TodaysRatesViewController.swift */,
 				1EBA214F1DA5BE2D00F12C39 /* Assets.xcassets */,
 				1EBA21511DA5BE2D00F12C39 /* LaunchScreen.storyboard */,
@@ -146,9 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8AE15E1DA961E300F47181 /* AmountViewController.swift in Sources */,
 				1EA097681DA5C37A0012B8DE /* TodaysRatesViewController.swift in Sources */,
 				1EA0976A1DA5D7F90012B8DE /* ContacFormTableTableViewController.swift in Sources */,
-				1EA097661DA5C3630012B8DE /* SendMoneyViewController.swift in Sources */,
 				1EBA214B1DA5BE2D00F12C39 /* ViewController.swift in Sources */,
 				1EBA21491DA5BE2D00F12C39 /* AppDelegate.swift in Sources */,
 			);
